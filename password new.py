@@ -4,7 +4,6 @@ print("please enter password")
 password = "world"
 user_password = input()
 while password != user_password:
-    continue
     print("please enter password")
     user_password = input()
     if password == user_password:
