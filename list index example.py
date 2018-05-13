@@ -15,3 +15,21 @@ spam
 # folgendes ersetzt 20;30, Liste hat dann 4 Items
 spam[1:3] = ['Hund', 'Katze', 'Maus']
 spam
+
+name = ['rita', 'Marita', 'Marta'
+        'Elisa']
+del name[2]  # marita == deleted
+
+# output variationen
+
+name = ['rita', 'Marita', 'Marta', 'Elisa']
+name[:2]
+# output = ['Rita', 'Marita'], weil bis 2 wird ausgespuckt, Also Wert 0 + 1
+
+name = ['rita', 'Marita', 'Marta', 'Elisa']
+name[1:]
+# output = alles ab wert 1 also Marita
+
+name = [1, 2, 3, 4]
+if str(1) in name == True
+    print('Well Done')
