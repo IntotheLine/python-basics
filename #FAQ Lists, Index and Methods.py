@@ -9,7 +9,7 @@ spam.index('tail')
 # Work with Lists, append / insert / remove / del
 spam.append('tonic water')  # adds tonic water to the list
 spam.insert(1, 'white russian')  # new list: dog, white russian, tail, gin, vodka, tonic water
-spam.remove('gin')  # removes gin from the list, always the first value in the list
+spam.remove('gin')  # removes gin from the list, always the first value in a hole list
 
 del spam[0]  # deletes dog because it has the aligned index 0
 
